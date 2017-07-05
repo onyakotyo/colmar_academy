@@ -1,0 +1,13 @@
+html{
+  font-size: 20px;
+  color: black;
+  background-color: white;
+}
+
+a .navbar-brand span{
+  color: gray;
+}
+
+.col-xs-12 col-md-6{
+  background-image: src="./resources/images/banner.jpg";
+}
