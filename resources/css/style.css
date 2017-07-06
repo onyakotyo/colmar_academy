@@ -4,10 +4,126 @@ html{
   background-color: white;
 }
 
-a .navbar-brand span{
+nav{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#logo{
+  align-content: center;
+  margin-left: 5%;
+  margin-right: 0;
+  padding-top: 5%;
+  height: 6rem;
+
+}
+
+#navcontpad{
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: black;
+
+}
+
+#header{
+
+  margin-right: 20%;
+  margin-left: 0;
+
+}
+
+.navbar-brand{
+  font-weight: 700;
+}
+
+#navbarbrand span{
   color: gray;
 }
 
-.col-xs-12 col-md-6{
-  background-image: src="./resources/images/banner.jpg";
+#navbarbrand{
+  color: black;
+}
+
+
+
+
+
+#containerbanner{
+  padding-bottom: 2%;
+  margin-top: 10%;
+  margin-right: 5%;
+  background-color: gray;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+#banner{
+  margin-top: 3rem;
+  margin-left: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+#bannerinfo{
+  margin-top: 3rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+}
+
+#h2info{
+  margin: 5%;
+  text-align: center;
+  font-weight: 800;
+}
+#parainfo{
+  margin: 5%;
+  text-align: center;
+}
+#button{
+    text-align: center;
+    margin: 5%;
+    color: white;
+    background-color: black;
+    width: 60%;;
+    margin-left: 25%;;
+}
+
+#orientcont{
+  margin-left: 3%;
+  margin-right: 5%;
+  margin-top: 3%;
+
+}
+
+#allorienation{
+  margin-top: 0;
+}
+
+.keeppractice{
+  font-weight: 800;
+  text-align: center;
+  padding: 2%;
+  margin-top: 5%;
+}
+
+.practiceperfect{
+  text-align: center;
+  padding: 2%;
+  margin: 2%;
+
+}
+
+.orientation,
+.campus,
+.guestlecturer{
+  overflow: hidden;
+  padding: 2%;
+  margin: 2%;
+  height: 30%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
