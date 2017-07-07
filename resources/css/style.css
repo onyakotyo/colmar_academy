@@ -100,13 +100,21 @@ nav{
 
 #allorienation{
   margin-top: 0;
+
 }
 
 .keeppractice{
   font-weight: 800;
   text-align: center;
-  padding: 2%;
-  margin-top: 5%;
+  padding: 10%;
+  margin-top: 5rem;
+
+}
+
+.website{
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .practiceperfect{
@@ -122,8 +130,13 @@ nav{
   overflow: hidden;
   padding: 2%;
   margin: 2%;
-  height: 30%;
+  height: 16rem;
   text-align: center;
   align-items: center;
   align-content: center;
+}
+
+#photheight{
+  height: 50%;
+
 }
