@@ -65,12 +65,26 @@ nav{
   margin-bottom: 2rem;
 }
 
+#bannerpic{
+  padding-top: 5%;
+  height: 26rem;
+
+}
+
 #bannerinfo{
   margin-top: 3rem;
   align-items: center;
   align-content: center;
   justify-content: center;
 
+}
+
+#recruitinfo{
+  padding: 3%;
+}
+
+#recruitpic{
+  margin-top: 3.8%;
 }
 
 #h2info{
@@ -92,9 +106,10 @@ nav{
 }
 
 #orientcont{
-  margin-left: 3%;
+  margin-left: 5%;
   margin-right: 5%;
   margin-top: 3%;
+  padding-bottom: 4%;
 
 }
 
@@ -106,7 +121,7 @@ nav{
 .keeppractice{
   font-weight: 800;
   text-align: center;
-  padding: 10%;
+  padding: 2%;
   margin-top: 5rem;
 
 }
@@ -124,19 +139,69 @@ nav{
 
 }
 
-.orientation,
-.campus,
-.guestlecturer{
-  overflow: hidden;
+#orientation,
+#campus,
+#guestlecturer{
+
   padding: 2%;
   margin: 2%;
-  height: 16rem;
+  height: 30%;
   text-align: center;
   align-items: center;
   align-content: center;
 }
 
 #photheight{
-  height: 50%;
+  height: 10rem;
+
+}
+
+
+#thirdcontainer{
+  margin-top: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-right: 2%%;
+  padding-bottom: 3%;
+  background-color: gray;
+}
+
+.startheading{
+  text-align: center;
+  font-weight: 800;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+}
+
+#rowtop{
+  padding: 3%;
+}
+
+#rowone{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+
+}
+
+h1,h2,h3,p{
+  text-align: center;
+  margin: 3%;
+
+}
+
+#coursebox{
+  background-color: white;
+  margin: 1%;
+  width:30%;
+  height: 32%;
+}
+
+#photos{
+  margin-top: 5%;
 
 }
