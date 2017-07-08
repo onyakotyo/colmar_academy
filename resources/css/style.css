@@ -56,6 +56,8 @@ nav{
   background-color: gray;
   margin-left: 5%;
   margin-right: 5%;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
 
 }
 
@@ -108,8 +110,11 @@ nav{
 #orientcont{
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 3%;
+
   padding-bottom: 4%;
+  padding-top: 4%;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
 
 }
 
@@ -166,6 +171,8 @@ nav{
   padding-right: 2%%;
   padding-bottom: 3%;
   background-color: gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
 }
 
 .startheading{
@@ -194,6 +201,7 @@ h1,h2,h3,p{
 
 }
 
+
 #coursebox{
   background-color: white;
   margin: 1%;
@@ -203,5 +211,68 @@ h1,h2,h3,p{
 
 #photos{
   margin-top: 5%;
+
+}
+
+#videoframe{
+  margin-top: 3.8%;
+  height: 18rem;
+}
+
+#thesis{
+  margin-right: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 4%;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+#recruit{
+  margin-right: 0;
+}
+
+#fisma{
+  padding-left: 0px;;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 30%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-color: gray;
+}
+
+#now{
+  padding-left: 0px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 30%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-color: gray;
+
+}
+
+
+
+#reimaginephoto{
+    height: 10rem;
+    margin: 0px;
+}
+
+#footdiv{
+  border-top: 1px solid gray;
+  border-bottom: 2px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  height: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 7rem;
+  padding: 3%;
 
 }
