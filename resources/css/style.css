@@ -67,15 +67,16 @@ a{
 
 #banner{
   margin-top: 3rem;
-  margin-left: 2.4rem;
+
   margin-bottom: 2rem;
 }
 
 #bannerpic{
-  padding-top: 5%;
+  margin-top: 4%;
   height: 26rem;
-
 }
+
+
 
 #bannerinfo{
   margin-top: 3rem;
@@ -92,6 +93,8 @@ a{
 #recruitpic{
   margin-top: 3.8%;
 }
+
+
 
 #h2info{
   margin: 5%;
@@ -304,4 +307,10 @@ h1{
 #bottommenu{
   color: black;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 480px){
+  #bannerpic{
+    margin-top: 4%;
+  }
 }
