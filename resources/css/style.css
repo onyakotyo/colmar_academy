@@ -18,6 +18,11 @@ nav{
 
 }
 
+a{
+  font-size: 20px;
+
+}
+
 #navcontpad{
     padding-right: 5%;
     padding-top: 5%;
@@ -33,16 +38,15 @@ nav{
 
 }
 
-.navbar-brand{
-  font-weight: 700;
-}
+
 
 #navbarbrand span{
-  color: gray;
+  color: silver;
 }
 
 #navbarbrand{
   color: black;
+  font-weight: 800;
 }
 
 
@@ -53,11 +57,11 @@ nav{
   padding-bottom: 2%;
   margin-top: 10%;
   margin-right: 5%;
-  background-color: gray;
+  background-color: silver;
   margin-left: 5%;
   margin-right: 5%;
-  border-left: 2px solid gray;
-  border-right: 2px solid gray;
+  border-left: 2px solid silver;
+  border-right: 2px solid silver;
 
 }
 
@@ -99,13 +103,19 @@ nav{
   text-align: center;
 }
 #button{
-    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
     margin: 5%;
     color: white;
-    background-color: black;
-    width: 60%;;
-    margin-left: 25%;;
+    background-color: gray;
+    width: 60%;
+    height: 3rem;
+    margin-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    text-align: center;
 }
+
 
 #orientcont{
   margin-left: 5%;
@@ -113,8 +123,8 @@ nav{
 
   padding-bottom: 4%;
   padding-top: 4%;
-  border-left: 2px solid gray;
-  border-right: 2px solid gray;
+  border-left: 2px solid silver;
+  border-right: 2px solid silver;
 
 }
 
@@ -123,6 +133,15 @@ nav{
 
 }
 
+#btnread{
+  background-color: silver;
+  }
+
+  #button:hover, #btnread:hover{
+    background-color: rgba(255, 128, 0, 0.5);
+    color: white;
+    }
+
 .keeppractice{
   font-weight: 800;
   text-align: center;
@@ -130,6 +149,7 @@ nav{
   margin-top: 5rem;
 
 }
+
 
 .website{
   text-align: center;
@@ -170,9 +190,9 @@ nav{
   padding-top: 1%;
   padding-right: 2%%;
   padding-bottom: 3%;
-  background-color: gray;
-  border-left: 2px solid gray;
-  border-right: 2px solid gray;
+  background-color: silver;
+  border-left: 2px solid silver;
+  border-right: 2px solid silver;
 }
 
 .startheading{
@@ -201,6 +221,10 @@ h1,h2,h3,p{
 
 }
 
+h1{
+  font-weight: 800;
+}
+
 
 #coursebox{
   background-color: white;
@@ -224,8 +248,8 @@ h1,h2,h3,p{
   margin-left: 5%;
   margin-right: 5%;
   padding-bottom: 4%;
-  border-left: 2px solid gray;
-  border-right: 2px solid gray;
+  border-left: 2px solid silver;
+  border-right: 2px solid silver;
 }
 
 #recruit{
@@ -241,7 +265,7 @@ h1,h2,h3,p{
   text-align: center;
   align-items: center;
   align-content: center;
-  background-color: gray;
+  background-color: silver;
 }
 
 #now{
@@ -253,7 +277,7 @@ h1,h2,h3,p{
   text-align: center;
   align-items: center;
   align-content: center;
-  background-color: gray;
+  background-color: silver;
 
 }
 
@@ -266,13 +290,18 @@ h1,h2,h3,p{
 
 #footdiv{
   border-top: 1px solid gray;
-  border-bottom: 2px solid gray;
-  border-left: 2px solid gray;
-  border-right: 2px solid gray;
+  border-bottom: 2px solid silver;
+  border-left: 2px solid silver;
+  border-right: 2px solid silver;
   height: 15%;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 7rem;
   padding: 3%;
 
+}
+
+#bottommenu{
+  color: black;
+  font-size: 16px;
 }
