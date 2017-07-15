@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <title>colmar_academy</title>
     <link href="https://fonts.googleapis.com/css?family=Oxygen:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -10,6 +9,16 @@
     crossorigin="anonymous">
     <link rel="stylesheet" style="text/css" href="./resources/css/reset.css">
     <link rel="stylesheet" style="text/css" href="./resources/css/style.css">
+    <script type="text/javascript">
+    $(document).ready(function() {
+
+    $('#item-input').on('click',function(){
+      var newListItem = '<li>New List</li>';
+      $('ul').append(newListItem);
+    });
+
+    });
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -35,9 +44,19 @@
       <img src="resources\images\images\banner.jpg" id="bannerpic" class="col-xs-12">
     </div>
     <div  id="bannerinfo" class="col-xs-12 col-md-6">
-    <h2 id="h2info"class="col-xs-12">Learn something new everyday</h2>
-    <p id="parainfo"class="col-xs-12">Come join a group of dedicated educators with your future as the main focus</p>
-    <a id="button" class="btn btn-default btn-lg" href="#">Start here</a>
+    <h2 id="h2info" class="col-xs-12">Learn something new everyday</h2>
+    <p id="parainfo" class="col-xs-12">Come join a group of dedicated educators with your future as the main focus</p>
+
+    <div id="item-form"  class="col-xs-12">
+     <input id="item-input" class="col-xs-9" type="button" value="Add a new Item"/>
+     <div id="buttoninput" class="col-xs-3">Add</div>
+   </div>
+
+   <ul class="list">
+     <li>List items</li>
+     
+   </ul>
+       <a id="button" class="btn btn-default btn-lg" href="#">Start here</a>
   </div>
   </div>
  </div>
@@ -182,9 +201,13 @@
 
    </div>
  </div>
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+ <script src="resources\js\main.js"></script>
+
+ <script
+ src="https://code.jquery.com/jquery-3.2.1.min.js"
+ integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ crossorigin="anonymous"></script>
+
+
   </body>
 </html>
