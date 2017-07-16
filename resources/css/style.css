@@ -385,3 +385,41 @@ h1{
 .list li .glyphicon-remove:hover {
   color: #ed1c24;
 }
+
+/*login box css*/
+
+body{
+  background-color: silver;
+}
+#loginbox{
+  height: 48rem;
+  align-content: center;
+  align-items: center;
+  padding-top: 5%;
+
+}
+
+#modalbody{
+  padding-top: 14%;
+
+}
+
+#btncancel{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  
+  margin-right: 40%;
+  margin-top: 3%;
+
+}
+
+#content{
+
+  padding: 2%;
+  align-content: center;
+  align-items: center;
+  border: 2px solid grey;
+  height: 26rem;
+
+}

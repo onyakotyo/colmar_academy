@@ -1,0 +1,42 @@
+/*login box css*/
+
+body{
+  background-color: silver;
+}
+
+#loginbox{
+  height: 50rem;
+  align-content: center;
+  align-items: center;
+  padding-top: 5%;
+
+
+}
+
+
+#modalbody{
+  padding-top: 8%;
+
+
+
+}
+
+#btncancel{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-right: 40%;
+  margin-top: 3%;
+
+}
+
+#content{
+
+  padding: 2%;
+  align-content: center;
+  align-items: center;
+  border: 2px solid grey;
+  height: 52rem;
+
+}
